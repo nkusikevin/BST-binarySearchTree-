@@ -18,5 +18,9 @@ public class Main {
         tree.inorderTr();
         System.out.println();
         tree.postOrder();
+
+        System.out.println();
+
+        tree.preOder();
     }
 }

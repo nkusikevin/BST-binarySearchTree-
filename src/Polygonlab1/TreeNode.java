@@ -45,6 +45,15 @@ public class TreeNode {
         System.out.print(data + ",");
     }
 
+    public  void preOrder(){
+        System.out.print(data + ",");
+        if (leftnode != null){
+            leftnode.preOrder();
+        }
+        if (rightnode != null){
+            rightnode.preOrder();
+        }
+    }
 
     public TreeNode(int value){
         this.data = value;

@@ -24,4 +24,11 @@ public class Tree {
             root.postOrder();
         }
     }
+
+    public void preOder(){
+        if (root != null){
+            root.preOrder();
+        }
+    }
+
 }
