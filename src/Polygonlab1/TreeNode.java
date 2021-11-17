@@ -34,6 +34,18 @@ public class TreeNode {
         }
     }
 
+    public  void postOrder(){
+        if (leftnode != null){
+            leftnode.postOrder();
+        }
+        if (rightnode != null){
+            rightnode.postOrder();
+        }
+
+        System.out.print(data + ",");
+    }
+
+
     public TreeNode(int value){
         this.data = value;
     }

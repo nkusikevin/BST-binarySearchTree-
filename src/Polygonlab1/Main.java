@@ -10,12 +10,13 @@ public class Main {
         tree.insert(15);
         tree.insert(27);
         tree.insert(30);
-        tree.insert(30);
         tree.insert(29);
         tree.insert(26);
         tree.insert(22);
         tree.insert(32);
 
         tree.inorderTr();
+        System.out.println();
+        tree.postOrder();
     }
 }

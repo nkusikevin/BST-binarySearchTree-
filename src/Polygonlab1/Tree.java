@@ -18,4 +18,10 @@ public class Tree {
             root.inorderTr();
         }
     }
+
+    public  void postOrder(){
+        if (root != null){
+            root.postOrder();
+        }
+    }
 }
